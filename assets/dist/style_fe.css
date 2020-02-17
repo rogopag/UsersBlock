@@ -1,0 +1,50 @@
+.users-container{
+	display: flex;
+	height: 200px;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.user-box{
+	display: flex;
+	align-items: flex-start;
+	justify-content: left;
+	padding: 6px;
+	cursor:pointer;
+}
+.user-figure-box{
+	padding-right:6px;
+}
+.user-name-box{
+	padding-top:38px;
+	font-size:1.6rem;
+	box-sizing: content-box;
+}
+.inpsyde-users-block-modal .modal-header{
+	position: relative;
+}
+.inpsyde-users-block-modal button.close {
+	background-color: transparent;
+	margin:0;
+	position: absolute;
+	top:8px;
+	right:0px;
+	font-size:18px;
+	text-decoration:none;
+}
+.inpsyde-users-block-modal .btn-secondary{
+	background-color:#000;
+	opacity:.5;
+}
+.inpsyde-users-block-modal .btn-secondary:hover{
+	background-color:#000;
+	opacity:.7;
+}
+.inpsyde-users-block-modal .modal-title{
+	display:flex;
+	justify-content: flex-start;
+}
+.inpsyde-users-block-modal .user-name-box {
+	padding-top: 27px;
+	font-size: 3rem;
+	box-sizing: content-box;
+}

@@ -1,0 +1,61 @@
+# Ignore test results
+actual
+results
+
+# Ignore compiled docs
+_gh_pages
+_gh-pages
+_site
+
+# Numerous always-ignore extensions
+*.csv
+*.dat
+*.diff
+*.err
+*.gz
+*.log
+*.orig
+*.out
+*.pid
+*.rej
+*.ruby-version
+*.sass-cache
+*.seed
+*.swo
+*.swp
+*.vi
+*.zip
+*~
+lib-cov
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-*
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+.idea
+tmp
+pids
+tests/phpunit/vendor
+vendor/
+node_modules
+assets/dist/lib/bootstrap/*
+# Files to ignore
+npm-debug.log
+.travis.yml
+yarn.lock

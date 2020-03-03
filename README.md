@@ -1,4 +1,4 @@
-# Gutenberg Starter Kit
+# Gutenberg Users Block
 
 A basic Gutenberg plugin to add users widgets in a page/post: you can select multiple users by name and picture and display them in a grid + modal in your post content.
 
